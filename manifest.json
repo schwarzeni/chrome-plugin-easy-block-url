@@ -1,0 +1,20 @@
+{
+  "name": "网站毒瘾解除器",
+  "version": "1.0",
+  "description": "",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["index.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/"
+  ]
+}
